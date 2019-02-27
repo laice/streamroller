@@ -4,10 +4,10 @@ import (
 	"errors"
 	"time"
 
+	"github.com/laice/joy4/av"
 	"github.com/laice/joy4/format/rtmp"
 	"github.com/laice/streamroller/logger"
 	"github.com/laice/streamroller/services"
-	"github.com/nareix/joy4/av"
 )
 
 func CopyPackets(src av.PacketReader, rtmps []*rtmp.Conn) (err error) {
